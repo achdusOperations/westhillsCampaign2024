@@ -160,21 +160,15 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
 .donar-section{
     background: #032550;
     }
-    .donar-section .nav-tabs .nav-item.active .nav-link, .donar-section .nav-tabs .nav-item:hover .nav-link,.donar-section .nav-tabs .nav-item:hover .nav-link{
-        border-bottom:3px solid #fed401 !important;
-    }
-    /*.donar-section .nav-tabs .nav-item.active .nav-link, .donar-section .nav-tabs .nav-link{
-        color:#FFF !important;
-    }
-     /*"view all donors / be the first"*/
-   .js-donors-list .fs-btn,.js-donors-list .fs-btn:hover{
-    background:#fd7301;
-    border-radius: 25px !important;
-    }
-    /*name of team in donor tag*/
-    /*.team-up span{
-        color:#f5de68 !important;
-    }
+    .fs-partners>div{
+        border-top:6px solid #fed401 !important;
+        background: #032550 !important;
+    }       
+    .fs-partners .fs-btn{
+        background:#fd7301 !important;
+        border-radius: 25px !important;
+        }
+    
     /*donation page*/
     .fs-full-donate-form .fs-donate-body .fs-donate-section h3{
         color:#032550 !important;
