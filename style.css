@@ -125,6 +125,9 @@ background:#FFF !important ;
    .fs-donate {
     background:#fd7301
 }
+.fs-countdowndonate .fs-countdown, .fs-countdowndonate .fs-donate{
+    border-radius:25px !important;
+}
 
 /*body > div.fs-root > div > div.fs-campaign-info > div > div > div.col-md-6.fs-donate.fs-donatable.text-center.vertical-align.d-js-viewport-in > div.fs-left-border-triangle > svg > polygon{
 fill:#F8A147
