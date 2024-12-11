@@ -63,8 +63,7 @@ h1 *,h2 *, h3 *,.fs-about em, .fs-footer *,.fs-countdown h3 strong,    .fs-count
     background:#fed401 !important;
   border-radius: 25px !important;
   font-weight: bold !important;
-  font-size:20px !important;
-  padding:6px !important;
+  color:#032550 !important;
   
   }
  /* .donate-button .donate-button-text:hover{
