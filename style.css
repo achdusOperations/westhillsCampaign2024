@@ -20,3 +20,40 @@ a.a2a_button_facebook, a.a2a_button_twitter, a.a2a_button_email, a.a2a_dd{
 h1 *,h2, h3, h4, .donate-button *,.btn{
     font-family: "Sniglet", serif !important;
 }
+
+/*hero image*/
+.fs-header:before {
+    background-image: 
+   url("https://chabadofwesthills.com/media/images/1301/gFJZ13010256.png");
+   background-size:100% 100%;
+   }
+   @media screen and (max-width: 700px) {
+   .fs-header:before {
+    background-image: 
+   url("https://chabadofwesthills.com/media/images/1301/Ddyf13010255.png");
+   background-size:100% 100%;
+   }
+   }
+   /*text hero*/
+   
+   .fs-header .page-header h1 small{
+    color:white !important;
+    font-size:36px !important;
+   }
+   .fs-header .page-header h2{
+    color:#fed401 !important;
+    margin-top:0px !important;
+   }
+   .page-header .a-delay-200ms{
+    text-transform: uppercase !important;
+   }
+
+/*buttons */
+.donate-button .donate-button-text {
+    background:#fed401 !important;
+  border-radius: 25px !important;
+  
+  }
+ /* .donate-button .donate-button-text:hover{
+    background: #FFF !important;
+  }
