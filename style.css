@@ -17,7 +17,7 @@ a.a2a_button_facebook, a.a2a_button_twitter, a.a2a_button_email, a.a2a_dd{
 }
 
 /*fonts title and buttons*/
-h1 *,h2, h3, h4, .donate-button *,.btn{
+h1 *,h2, h3, h4, .donate-button *,.btn, .fs-partners h3 span{
     font-family: "Sniglet", serif !important;
 }
 
@@ -110,7 +110,7 @@ background:#FFF !important ;
         color:#fed401;
     }
     .fs-countdown .fs-countdown-widget .fs-countdown-unit .fs-countdown-description{
-        color:#fed401 !important;
+        color:#fff !important;
     }
     /*left until...*/
     /*h3.fs-countdown-message {
