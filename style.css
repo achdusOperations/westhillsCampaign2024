@@ -17,7 +17,7 @@ a.a2a_button_facebook, a.a2a_button_twitter, a.a2a_button_email, a.a2a_dd{
 }
 
 /*fonts title and buttons*/
-h1 *,h2 *, h3 *, h4,.fs-goal .fs-goal-text strong, .fs-about-text strong, .fs-header .page-header h1 small, .fs-matchers .fs-matchers-intro strong, .fs-footer, .fs-header .page-header h2, .donate-button *,.btn, .fs-partners h3 span, .fs-about-text.js-about-text h3, .fs-about-text.js-about-text h4, .fs-full-donate-form .fs-donate-header .fs-text h2{
+h1 *,h2 *, h3 *, body .fs-root h3, h4,.fs-goal .fs-goal-text strong, .fs-about-text strong, .fs-header .page-header h1 small, .fs-matchers .fs-matchers-intro strong, .fs-footer, .fs-header .page-header h2, .donate-button *,.btn, .fs-partners h3 span, .fs-about-text.js-about-text h3, .fs-about-text.js-about-text h4, .fs-full-donate-form .fs-donate-header .fs-text h2{
     font-family: "Sniglet", serif !important;
 }
 
