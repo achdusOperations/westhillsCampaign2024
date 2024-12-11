@@ -17,7 +17,7 @@ a.a2a_button_facebook, a.a2a_button_twitter, a.a2a_button_email, a.a2a_dd{
 }
 
 /*fonts title and buttons*/
-h1 *,h2, h3, h4, .donate-button *,.btn, .fs-partners h3 span, .fs-about-text.js-about-text h3, .fs-about-text.js-about-text h4, .fs-full-donate-form .fs-donate-header .fs-text h2{
+h1 *,h2, h3, h4, .fs-footer, .fs-header .page-header h2, .donate-button *,.btn, .fs-partners h3 span, .fs-about-text.js-about-text h3, .fs-about-text.js-about-text h4, .fs-full-donate-form .fs-donate-header .fs-text h2{
     font-family: "Sniglet", serif !important;
 }
 
@@ -40,18 +40,26 @@ h1 *,h2, h3, h4, .donate-button *,.btn, .fs-partners h3 span, .fs-about-text.js-
     color:white !important;
     font-size:36px !important;
    }
+   @media screen and (max-width: 700px) {
+   .fs-header .page-header h1 small{
+    font-size:24px !important;
+   }
+}
    .fs-header .page-header h2{
     color:#fed401 !important;
     margin-top:0px !important;
+    font-size:48px;
    }
    .page-header .a-delay-200ms{
     text-transform: uppercase !important;
    }
+   
 
 /*buttons */
 .donate-button .donate-button-text {
     background:#fed401 !important;
   border-radius: 25px !important;
+  font-weight: bold !important;
   
   }
  /* .donate-button .donate-button-text:hover{
@@ -136,7 +144,7 @@ background:#FFF !important ;
 fill:#F8A147
 }*/
 div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > polygon{
-    fill:#fed401
+    fill:#fd7301 !important;
 }
 
 /*dollar sign*/
@@ -147,18 +155,21 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
 .fs-donate .fs-btn, .fs-donate .fs-btn:hover{    
     border-radius: 25px !important;
 }
-
-/*titles*/
+/*main text*/
 .fs-about-text.js-about-text h3{
     color:#032550 !important;
 }
 .fs-about-text.js-about-text h4{
     color: #fd7301 !important;
 }
+.fs-about-text.js-about-text p{
+    font-size:16px !important;
+}
 
-/*donate section*/
+/*"Our donors"*/
 .donar-section{
     background: #032550;
+    border-radius: 25px !important;
     }
     .fs-partners>div{
         border-top:6px solid #fed401 !important;
@@ -168,6 +179,16 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
         background:#fd7301 !important;
         border-radius: 25px !important;
         }
+        .fs-partners h3 span{
+            color:#FFF !important;
+        }
+     /*read more*/
+     .fs-about-text .fs-btn-read-more{
+        border-radius: 25px !important;
+        background: orange !important;
+        color:#FFF !important;
+        font-weight: bold !important;
+     }   
     
     /*donation page*/
     .fs-full-donate-form .fs-donate-body .fs-donate-section h3{
@@ -196,5 +217,5 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
         border-top: 1px solid #032550;
     }
     .fs-footer .row>div:nth-of-type(1) h3, .fs-footer .row>div:nth-of-type(2) h3 , address {
-        color:#fed401;
+        color:#fff !important;
     }
