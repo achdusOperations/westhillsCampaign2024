@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Sniglet:wght@400;800&display=swap');
 /*header*/
 /*donate button*/
 .fs-header-top .fs-top-tools .fs-btn{
@@ -14,4 +14,9 @@ a.a2a_button_facebook, a.a2a_button_twitter, a.a2a_button_email, a.a2a_dd{
 }
 .fs-header-top{
     border:none !important;
+}
+
+/*fonts title and buttons*/
+h1 *,h2, h3, h4, .donate-button *,.btn{
+    font-family: "Sniglet", serif !important;
 }
