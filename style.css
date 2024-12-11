@@ -182,7 +182,7 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
         background:#fd7301 !important;
         border-radius: 25px !important;
         }
-        .fs-partners h3 span{
+        .fs-partners h3 span , body > div.fs-root > div > div.container.fs-about-partners-container > div > div.col-md-4.fs-partners.js-partners > div > h3 {
             color:#FFF !important;
         }
 
