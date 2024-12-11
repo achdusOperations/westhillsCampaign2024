@@ -77,7 +77,7 @@ h1 *,h2 *, h3 *,    .fs-countdown .fs-countdown-widget .fs-countdown-unit .fs-co
 .fs-goal{
 background:#FFF !important ;
 }
-.col-md-6.text-xs-center.text-md-right.fs-goal-text{
+.col-md-6.text-xs-center.text-md-right.fs-goal-text, .fs-goal .fs-goal-text strong{
     color:#032550 !important;
 }
 .fs-goal .fs-goal-text .fs-goal-amount,.fs-goal .fs-goal-graph-container .fs-goal-graph-text span{
