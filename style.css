@@ -102,8 +102,8 @@ background:#FFF !important ;
 .fs-countdown {
     background:#032550;
     }
-    .fs-countdown-number, body > div.fs-root > div > div.fs-campaign-info > div > div > div.col-md-6.fs-countdown.text-center.d-js-viewport-in > h3,.fs-footer .row>div:nth-of-type(1) h3, .fs-countdown .fs-countdown-widget .fs-countdown-unit .fs-countdown-description, .fs-countdown .fs-countdown-widget .fs-countdown-sep{
-    color:#fed401;
+    .fs-countdown-number, .fs-countdown-sep{
+      color:#fed401;
     }
     /*maximize in countdown*/
     .fs-countdown h3 strong {
@@ -141,3 +141,60 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
 .fs-donate .fs-btn, .fs-donate .fs-btn:hover{    
     border-radius: 25px !important;
 }
+
+/*titles*/
+.fs-about-text.js-about-text h3{
+    color:#032550 !important;
+}
+.fs-about-text.js-about-text h4{
+    color: #fd7301 !important;
+}
+
+/*donate section*/
+.donar-section{
+    background: #032550;
+    }
+    .donar-section .nav-tabs .nav-item.active .nav-link, .donar-section .nav-tabs .nav-item:hover .nav-link,.donar-section .nav-tabs .nav-item:hover .nav-link{
+        border-bottom:3px solid #fed401 !important;
+    }
+    /*.donar-section .nav-tabs .nav-item.active .nav-link, .donar-section .nav-tabs .nav-link{
+        color:#FFF !important;
+    }
+     /*"view all donors / be the first"*/
+   .js-donors-list .fs-btn,.js-donors-list .fs-btn:hover{
+    background:#fd7301;
+    border-radius: 25px !important;
+    }
+    /*name of team in donor tag*/
+    /*.team-up span{
+        color:#f5de68 !important;
+    }
+    /*donation page*/
+    .fs-full-donate-form .fs-donate-body .fs-donate-section h3{
+        color:#032550 !important;
+        font-family: "Sniglet", serif !important;
+    }
+    
+    /*amount boxes*/
+    .fs-full-donate-form .fs-donate-body .fs-donation-options .fs-donation-option span.fs-option-name>{
+        background-color: #fd7301;
+        color:#032550;
+        border-radius:25px;
+    }
+    .fs-full-donate-form .fs-donate-body .fs-effective-donation-container .fs-effective-donation-amount-container{
+        color:#fd7301 !important;
+    }
+    /*amount boxes when selected*/
+    /*.fs-full-donate-form .fs-donate-body .fs-donation-options .fs-donation-option.fs-other label.selected, .fs-full-donate-form .fs-donate-body .fs-donation-options .fs-donation-option.selected .fs-option-name>div {
+        background:#16396a;
+        color:#FFF
+    
+    }
+    /*footer*/
+    .fs-footer {
+        background: #032550;
+        border-top: 1px solid #032550;
+    }
+    .fs-footer .row>div:nth-of-type(1) h3, .fs-footer .row>div:nth-of-type(2) h3 , address {
+        color:#fed401;
+    }
