@@ -185,6 +185,17 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
         .fs-partners h3 span{
             color:#FFF !important;
         }
+
+        /*flags*/
+        .fs-partners .fs-partner-container .fs-partner{
+            background: #FFF !important;
+        }
+        .fs-partner .fs-bottom-triangle  polygon{
+            fill:#FFF !important;
+            }
+    .fs-partners .fs-partner-container .fs-partner .fs-partner-name, .fs-partners .fs-partner-container .fs-partner .fs-partner-donation-amount{
+        color:#032550 !important;
+    }
      /*read more*/
      .fs-about-text .fs-btn-read-more{
         border-radius: 25px !important;
