@@ -17,7 +17,7 @@ a.a2a_button_facebook, a.a2a_button_twitter, a.a2a_button_email, a.a2a_dd{
 }
 
 /*fonts title and buttons*/
-h1 *,h2 *, h3 *, body .fs-root h3, h4,.fs-goal .fs-goal-text strong, .fs-about-text strong, .fs-header .page-header h1 small, .fs-matchers .fs-matchers-intro strong, .fs-footer, .fs-header .page-header h2, .donate-button *,.btn, .fs-partners h3 span, .fs-about-text.js-about-text h3, .fs-about-text.js-about-text h4, .fs-full-donate-form .fs-donate-header .fs-text h2{
+h1 *,h2 *, h3 *,.fs-footer .row>div:nth-of-type(1) h3,.fs-full-donate-form .fs-donate-body .fs-donation-options .fs-donation-option span.fs-option-name>*, body .fs-root h3, h4,.fs-goal .fs-goal-text strong, .fs-about-text strong, .fs-header .page-header h1 small, .fs-matchers .fs-matchers-intro strong, .fs-footer, .fs-header .page-header h2, .donate-button *,.btn, .fs-partners h3 span, .fs-about-text.js-about-text h3, .fs-about-text.js-about-text h4, .fs-full-donate-form .fs-donate-header .fs-text h2{
     font-family: "Sniglet", serif !important;
 }
 
@@ -172,11 +172,11 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
 /*"Our donors"*/
 .donar-section{
     background: #032550;
-    border-radius: 25px !important;
     }
     .fs-partners>div{
         border-top:6px solid #fed401 !important;
         background: #032550 !important;
+        border-radius:25px !important;
     }       
     .fs-partners .fs-btn{
         background:#fd7301 !important;
