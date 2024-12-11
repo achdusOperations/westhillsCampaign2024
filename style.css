@@ -17,7 +17,7 @@ a.a2a_button_facebook, a.a2a_button_twitter, a.a2a_button_email, a.a2a_dd{
 }
 
 /*fonts title and buttons*/
-h1 *,h2 *, h3 *, h4, .fs-about-text strong, .fs-header .page-header h1 small, .fs-matchers .fs-matchers-intro strong, .fs-footer, .fs-header .page-header h2, .donate-button *,.btn, .fs-partners h3 span, .fs-about-text.js-about-text h3, .fs-about-text.js-about-text h4, .fs-full-donate-form .fs-donate-header .fs-text h2{
+h1 *,h2 *, h3 *, h4,.fs-goal .fs-goal-text strong, .fs-about-text strong, .fs-header .page-header h1 small, .fs-matchers .fs-matchers-intro strong, .fs-footer, .fs-header .page-header h2, .donate-button *,.btn, .fs-partners h3 span, .fs-about-text.js-about-text h3, .fs-about-text.js-about-text h4, .fs-full-donate-form .fs-donate-header .fs-text h2{
     font-family: "Sniglet", serif !important;
 }
 
@@ -81,12 +81,12 @@ background:#FFF !important ;
 .fs-goal .fs-goal-text .fs-goal-amount,.fs-goal .fs-goal-graph-container .fs-goal-graph-text span{
     color:#fd7301 !important;
 }
-/*goal meter not filled and then filled*/
+/*goal meter  filled and then not filled*/
 .fs-goal-graph-fill{
-    background:#032550 !important;
+    background: #fd7301 !important;
 }
 .fs-goal-graph{
-    background: #fd7301 !important;
+    background: #032550 !important;
 }
 /*center goal*/
 /*@media (min-width:992px){
