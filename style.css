@@ -109,6 +109,9 @@ background:#FFF !important ;
     .fs-countdown h3 strong {
         color:#fed401;
     }
+    .fs-countdown .fs-countdown-widget .fs-countdown-unit .fs-countdown-description{
+        color:#fed401 !important;
+    }
     /*left until...*/
     /*h3.fs-countdown-message {
         color: #fed401 !important;
