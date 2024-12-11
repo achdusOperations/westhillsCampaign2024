@@ -97,3 +97,47 @@ background:#FFF !important ;
 .fs-matchers .fs-matcher .fs-matcher-title{
     display:none !important;
 }
+
+/*countdown*/
+.fs-countdown {
+    background:#032550;
+    }
+    .fs-countdown-number, body > div.fs-root > div > div.fs-campaign-info > div > div > div.col-md-6.fs-countdown.text-center.d-js-viewport-in > h3,.fs-footer .row>div:nth-of-type(1) h3, .fs-countdown .fs-countdown-widget .fs-countdown-unit .fs-countdown-description, .fs-countdown .fs-countdown-widget .fs-countdown-sep{
+    color:#fed401;
+    }
+    /*maximize in countdown*/
+    .fs-countdown h3 strong {
+        color:#fed401;
+    }
+    /*left until...*/
+    /*h3.fs-countdown-message {
+        color: #fed401 !important;
+    } 
+    /*full width*/
+    /*.fs-countdowndonate{
+        width:100% !important;
+        padding-right:0px !important;
+        padding-left:0px !important;
+    }
+
+
+    /*section next to countdown*/
+   .fs-donate {
+    background:#fd7301
+}
+
+/*body > div.fs-root > div > div.fs-campaign-info > div > div > div.col-md-6.fs-donate.fs-donatable.text-center.vertical-align.d-js-viewport-in > div.fs-left-border-triangle > svg > polygon{
+fill:#F8A147
+}*/
+div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > polygon{
+    fill:#fed401
+}
+
+/*dollar sign*/
+.fs-donate .fs-donate-amounts {
+    color:#032550;
+}
+/*button*/
+.fs-donate .fs-btn, .fs-donate .fs-btn:hover{    
+    border-radius: 25px !important;
+}
