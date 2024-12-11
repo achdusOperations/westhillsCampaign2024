@@ -57,3 +57,43 @@ h1 *,h2, h3, h4, .donate-button *,.btn{
  /* .donate-button .donate-button-text:hover{
     background: #FFF !important;
   }
+  /*goal section*/
+  .jumbotron.fs-header {
+    border-bottom: 4px solid #FFF !important;
+}
+.fs-goal{
+background:#FFF !important ;
+}
+.col-md-6.text-xs-center.text-md-right.fs-goal-text{
+    color:#032550 !important;
+}
+.fs-goal .fs-goal-text .fs-goal-amount,.fs-goal .fs-goal-graph-container .fs-goal-graph-text span{
+    color:#fd7301 !important;
+}
+/*goal meter not filled and then filled*/
+.fs-goal-graph-fill{
+    background:#032550 !important;
+}
+.fs-goal-graph{
+    background: #fd7301 !important;
+}
+/*center goal*/
+/*@media (min-width:992px){
+    .fs-goal .fs-goal-text{
+    display: flex !important;
+    justify-content: center !important;
+    }
+}
+/*matchers*/
+.container-fluid.fs-matchers{
+    background:#FFF !important;
+}
+.fs-matchers .fs-matchers-intro strong{
+    color:#032550 !important;
+}
+.fs-matchers .fs-matcher .fs-matcher-image{
+    display:none !important;   
+}
+.fs-matchers .fs-matcher .fs-matcher-title{
+    display:none !important;
+}
