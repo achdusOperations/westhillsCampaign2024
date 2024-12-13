@@ -243,6 +243,6 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
         color:#fff !important;
     }
     /*picture*/
-    image_change{
+    .image_change{
         width:100%;
     }
