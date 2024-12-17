@@ -255,5 +255,5 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
         content: " Thank you to our generous matchers for making this a possibility, and a HUGE thank you goes to YOU for seizing the opportunity to do good.";
       }
       h3.fs-countdown-message::after{
-        content:"The campaign will remain open until we reach our goal."
+        content:"The campaign will remain open until we hit our goal." !important;
       }
