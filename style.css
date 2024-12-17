@@ -123,14 +123,16 @@ background:#FFF !important ;
     background:#032550;
     }
     .fs-countdown-number, .fs-countdown-sep{
-      color:#fed401;
+      /*color:#fed401;*/
+      display:none !important;
     }
     /*maximize in countdown*/
     .fs-countdown h3 strong {
         color:#fed401;
     }
     .fs-countdown .fs-countdown-widget .fs-countdown-unit .fs-countdown-description{
-        color:#fff !important;
+        /*color:#fff !important;*/
+        display:none;
     }
     /*left until...*/
     /*h3.fs-countdown-message {
