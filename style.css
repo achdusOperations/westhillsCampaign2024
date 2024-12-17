@@ -140,7 +140,7 @@ background:#FFF !important ;
     h3.fs-countdown-message {
         color: #fed401 !important;
        /*display:none !important;*/
-       visibility:none;
+       visibility:none !important;
        position:relative;
     } 
     /*full width*/
@@ -263,15 +263,8 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
         position:absolute;
         top:0;
         left:0;
-        content:"The campaign will remain ";
+        content:"The campaign will remain open until we reach our goal ";
         color:#fff;
       }
-      .fs-countdown h3 strong::after{
-        visibility: visible;
-        position:absolute;
-        top:0;
-        left:0;
-        content:"open ";
-        color:#fed401;
-      }
+     
       
