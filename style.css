@@ -263,11 +263,3 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
         top:0 !important;
         left:0 !important;
       }
-      h3.fs-countdown-message::after::after{
-        content:"!" !important;
-        color:#fff;
-        visibility: visible !important;
-        position:absolute !important;
-        top:0 !important;
-        left:0 !important;
-      }
