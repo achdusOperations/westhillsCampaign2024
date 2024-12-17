@@ -129,8 +129,6 @@ background:#FFF !important ;
     /*maximize in countdown*/
     .fs-countdown h3 strong {
         color:#fed401;
-        visibility:hidden;
-        position: relative;
     }
     .fs-countdown .fs-countdown-widget .fs-countdown-unit .fs-countdown-description{
         /*color:#fff !important;*/
@@ -138,9 +136,8 @@ background:#FFF !important ;
     }
     /*left until...*/
     h3.fs-countdown-message {
-        color: #fed401 !important;
-       /*display:none !important;*/
-       visibility:none !important;
+       /* color: #fed401 !important;*/
+       display:none !important;
     } 
     /*full width*/
     /*.fs-countdowndonate{
@@ -257,12 +254,6 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
     .fs-matchers-intro span:nth-child(2)::after{
         content: " Thank you to our generous matchers for making this a possibility, and a HUGE thank you goes to YOU for seizing the opportunity to do good.";
       }
-      h3.fs-countdown-message{
-        display: none;
+      h3.fs-countdown-message::after{
+        content:"The campaign will remain open until we reach our goal."
       }
-      h3.fs-countdown-message::after{       
-        content:"The campaign will remain open until we reach our goal ";
-        color:#fff;
-      }
-     
-      
