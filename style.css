@@ -252,9 +252,13 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
     }
 
     /*lengthen campaign*/
+    .fs-matchers-intro span:nth-child(2){
+        color:#032550 !important;
+    }
     .fs-matchers-intro span:nth-child(2)::after{
         content: " Thank you to our generous matchers for making this a possibility, and a HUGE thank you goes to YOU for seizing the opportunity to do good.";
-      }
+        color:#032550 !important;
+    }
       h3.fs-countdown-message::after{
         content:"The campaign will remain open until we hit our goal." !important;
         color:#fff;
