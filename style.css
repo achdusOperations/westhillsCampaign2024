@@ -250,6 +250,6 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
     }
 
     /*lengthen campaign*/
-    .fs-matchers-intro span :nth-child(2)::after{
+    .fs-matchers-intro span:nth-child(2)::after{
         content: "Thank you to our generous matchers for making this a possibility, and a HUGE thank you goes to YOU for seizing the opportunity to do good.";
       }
