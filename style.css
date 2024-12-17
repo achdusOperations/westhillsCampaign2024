@@ -137,7 +137,8 @@ background:#FFF !important ;
     /*left until...*/
     h3.fs-countdown-message {
        /* color: #fed401 !important;*/
-       display:none !important;
+       visibility:hidden !important;
+       position:relative !important;
     } 
     /*full width*/
     /*.fs-countdowndonate{
@@ -257,4 +258,8 @@ div.fs-top-border-triangle > svg > polygon, div.fs-left-border-triangle > svg > 
       h3.fs-countdown-message::after{
         content:"The campaign will remain open until we hit our goal." !important;
         color:#fff;
+        visibility: visible !important;
+        position:absolute !important;
+        top:0 !important;
+        left:0 !important;
       }
